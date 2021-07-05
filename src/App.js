@@ -1,4 +1,6 @@
 import Card from './Components/Card'
+import Lists from './Components/Lists'
+
 import faker from 'faker'
 import { useState } from 'react'
 
@@ -55,7 +57,8 @@ function App() {
             {buttons}
             </Card>}
       */}
-
+      <h3 className='text-center'>List</h3>
+      <Lists />
     </div>
   );
 }
